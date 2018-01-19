@@ -15,7 +15,7 @@ public class HehuaApplication {
 
 	@RequestMapping("/")
 	public String methodOne(){
-	    return "I'm here : methodOne!!!"+sayText+"乱码！";
+	    return "I'm here : methodOne!!!"+sayText+"乱码！cdcdcd";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(HehuaApplication.class, args);
