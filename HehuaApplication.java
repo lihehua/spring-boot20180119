@@ -15,9 +15,10 @@ public class HehuaApplication {
 
 	@RequestMapping("/")
 	public String methodOne(){
-	    return "I'm here : methodOne!!!"+sayText+"乱码！";
+	    return "I'm here : methodOne!!!"+sayText+"乱码！----github竟然可以在线编辑！";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(HehuaApplication.class, args);
 	}
+	
 }
